@@ -1,5 +1,5 @@
 {
-  "name": "uber_landing",
+  "name": "Pulsometr",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bohdan2909/Uber_landing.git"
+    "url": "git+https://github.com/Bohdan2909/Pulsometr.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bohdan2909/Uber_landing/issues"
+    "url": "https://github.com/Bohdan2909/Pulsometr/issues"
   },
-  "homepage": "https://github.com/Bohdan2909/Uber_landing#readme",
+  "homepage": "https://github.com/Bohdan2909/Pulsometr#readme",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
