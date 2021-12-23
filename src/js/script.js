@@ -16,3 +16,18 @@ $(document).ready(function(){
     ]
   });
 });
+
+/* const slider = tns({
+  container: '.carousel__inner',
+  items: 1, //q-ty slides
+  slideBy: 'page',
+  autoplay: true,
+  controls: false, //deleted prev/next buttons
+  nav: false  //delete dots
+});
+document.querySelector('.slick-prev').addEventListener('click', function () {
+  slider.goTo('slick-prev');
+});
+document.querySelector('.slick-next').addEventListener('click', function () {
+  slider.goTo('slick-next');
+}); */
