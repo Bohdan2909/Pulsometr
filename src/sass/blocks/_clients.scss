@@ -1,0 +1,42 @@
+.clients{
+  margin-top: 80px;
+  padding-bottom: 71px;
+
+  &__inner{
+    width: 915px;
+   
+    &-item{
+      display: flex;
+      margin-top: 60px;
+      img{
+        width: 169px;
+        height: 169px;
+      }
+
+    }
+    &-title{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+      color: #0D0D0D;
+    }
+    &-subtitle{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      color: #646464;
+      margin-bottom: 10px;
+    }
+    &-descr{
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0D0D0D;
+    }
+    &-text{
+      width: 680px;
+      text-align: left;
+      margin-left: 60px;
+    }
+  }
+}
