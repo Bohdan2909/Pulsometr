@@ -29,4 +29,13 @@
           text-decoration: underline;
       }
   }
+  &__icon{
+      &_animated{
+          animation: heartBeat .8s linear infinite;
+        //   animation-name: heartBeat;
+        //   animation-duration: .8s;
+        //   animation-timing-function: linear;
+        //   animation-iteration-count: infinite;
+      }
+  }
 }

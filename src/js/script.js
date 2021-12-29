@@ -103,11 +103,12 @@ $('form').submit(function(e) {
 
 // Scroll to Up
 $(window).scroll(function() {
-  if ($(this).scrollTop() > 700) {
+  if ($(this).scrollTop() > 400) {
     $('.pageup').fadeIn();
   } else {
     $('.pageup').fadeOut();
   }
+ 
 });
 //Animate
 // $("a[href^='#']").click(function () {
@@ -136,7 +137,32 @@ $("a, #up").on('click', function(event) {
       window.location.hash = hash;
     });
   } // End if
+ 
 });
+
+//Animation to scroll user
+
+// new WOW().init();
+window.addEventListener('scroll', function(e) {
+   e.preventDefault();
+  if( $(window).scrollTop() <= 500) {
+      $('.wow').removeClass('animated');
+      $('.wow').removeAttr('style');
+      new WOW().init();
+  }
+});
+
+/* $(window).load(function() {
+  var wow = new WOW({
+      boxClass: 'wow',
+      animateClass: 'animated',
+      offset: 0,
+      mobile: true,
+      live: true
+  });
+  wow.init()
+}); */
+
 });
 
 
