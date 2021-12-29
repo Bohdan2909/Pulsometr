@@ -30,7 +30,7 @@ $(document).ready(function () {
         $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
       });
     });
-  };
+  }
   toggleSlide('.catalog-item__link');
   toggleSlide('.catalog-item__back');
 
@@ -54,6 +54,28 @@ $(document).ready(function () {
     });
   });
 
+//Validate Form
+function validateForm (form) {
+  $(form).validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 2
+      },
+      phone: "required",
+      email: {
+        required: true,
+        email: true
+      }
+    },
+    messages:{
+      name: "Пожалуйста введите свое имя"
+    }
+  });
+}
+validateForm('#consultation-form');
+validateForm('#consultation form');
+validateForm('#order form');
 
 
 
